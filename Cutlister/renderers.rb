@@ -393,6 +393,20 @@ class RTFRenderer < Renderer
     @round_dimensions = round_dimensions
     
   end
+  
+    # Create the title of the RTF file.
+  def title(label)
+    
+    "#{label}\n"
+    
+  end
+  
+  # Add a heading to each section of parts.
+  def section_heading(label)
+    
+    "#{label}\n"
+    
+  end
 end
   
 
