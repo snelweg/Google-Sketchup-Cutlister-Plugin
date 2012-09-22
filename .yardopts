@@ -12,15 +12,8 @@
 --hide-tag yard.signature
 --load ./docs/templates/plugin.rb
 -
-docs/WhatsNew.md
-docs/GettingStarted.md
-docs/Tags.md
-docs/Overview.md
-docs/CodeObjects.md
-docs/Parser.md
-docs/Handlers.md
-docs/TagsArch.md
-docs/Templates.md
+Cutlister.rb
+Cutlister/*.rb
 ChangeLog
 LICENSE
 LEGAL
