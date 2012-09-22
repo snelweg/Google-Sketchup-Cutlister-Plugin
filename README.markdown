@@ -18,6 +18,10 @@ You can choose from outputting an HTML page, a CSV file (for importing into prog
 
 This plugin was designed to be extendable, allowing you to add your own output formats, cut lists and renderers. This means you could generate custom cut lists for your own particular needs without changing anything in the current code (more on this below).
 
+## Extra stuff
+
+http://rubydoc.info/github/snelweg/Google-Sketchup-Cutlister-Plugin/master/frames/toplevel
+
 
 ## Installation
 
