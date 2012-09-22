@@ -381,6 +381,23 @@ end
 
 # Exports the cut list into a Comma Seperated Values (CSV) file, which will
 # work in programs like Mircosoft Excel (PC/Mac) and Apple iWork Numbers (Mac).
+class RTFRenderer < Renderer
+  
+  @display_name = "RTF"
+  @description = "Output the cut list in a .rtf file that can be linked to a Layout 3 file."
+  
+  def initialize(round_dimensions)
+    
+    super(round_dimensions)
+    
+    @round_dimensions = round_dimensions
+    
+  end
+end
+  
+
+# Exports the cut list into a Comma Seperated Values (CSV) file, which will
+# work in programs like Mircosoft Excel (PC/Mac) and Apple iWork Numbers (Mac).
 class CSVRenderer < Renderer
   
   @display_name = "CSV"
