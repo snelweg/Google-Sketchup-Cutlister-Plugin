@@ -1,3 +1,6 @@
+*.rb
+Cutlister.rb
+Cutlister/*.rb
 --protected
 --no-private
 --embed-mixin ClassMethods
@@ -12,8 +15,6 @@
 --hide-tag yard.signature
 --load ./docs/templates/plugin.rb
 -
-Cutlister.rb
-Cutlister/*.rb
 ChangeLog
 LICENSE
 LEGAL
